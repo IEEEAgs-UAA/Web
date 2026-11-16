@@ -61,13 +61,15 @@ flowchart TD
 ### WebPage
 Para editar la pagina web basta con editar los archivos en la carpeta content(WebPage/content) y luego subir los cambios a la rama v5, para que se despliegue automaticamente en la pagina web.
 
+**1. Editas o agregas notas en content/**
+**2. (Opcional) pruebas en local**
+cd quartz && npx quartz build --serve -d ../content
 
-Para subir la pagina a produccion 
-```bash
-npx quartz sync
-```
-* Siempre se debe trabajar en la rama v5
-
+**3. Subes el cambio**
+cd ..
+git add -A
+git commit -m "Actualizar contenido"
+git push
 
 ### BuscaChambas3000
 El [BuscaChambas3000](https://dasreyxr.github.io/Directoriodejales/) es un listado de oportunidades laborales, programas de prácticas profesionales (internships) y certificaciones, orientado principalmente a estudiantes y recién egresados de áreas de ingeniería y tecnología. El proyecto utiliza archivos JSON como fuente de datos y una interfaz web estática para consultar, filtrar, editar y exportar información sin necesidad de un servidor.
