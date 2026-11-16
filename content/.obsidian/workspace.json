@@ -11,10 +11,12 @@
             "id": "2f1c8a5dad783c02",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "image",
+              "state": {
+                "file": "src/Home/image-1.png"
+              },
+              "icon": "lucide-image",
+              "title": "image-1"
             }
           }
         ]
@@ -95,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/Home/image-1.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/Home/image-1.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "src/Home/image-1.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,6 +188,9 @@
   },
   "active": "2f1c8a5dad783c02",
   "lastOpenFiles": [
-    "index.md"
+    "index.md",
+    "Web.md",
+    "src/Home/Asignar Puestos.md",
+    "src/Home/image-1.png"
   ]
 }
