@@ -1,5 +1,5 @@
 ---
-title: AsignarPuestos.md
+title: AsignarPuestos
 ---
 # Asignar Puestos
 ### IEEE Tutorial

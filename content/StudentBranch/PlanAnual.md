@@ -1,5 +1,5 @@
 ---
-title: PlanAnual.md
+title: PlanAnual
 ---
 
 # Crear un plan anual
@@ -32,7 +32,7 @@ En esta seccion se detallara lo que se hara a lo largo del año y como será fin
 
 
 ### Activities
-En esta seccion se anotaran las actividades por mes, se sugiere un minimo de 4 actividades, a lo largo del año se iran reportando estas actividades por medio de [[Event Vtools]].
+En esta seccion se anotaran las actividades por mes, se sugiere un minimo de 4 actividades, a lo largo del año se iran reportando estas actividades por medio de [[vToolsEvents|eventos en vTools]].
 
 Como consejo para trabajar de forma rapida se sugiere usar "TAB" y "SHIFT + TAB" para desplazarse a traves de las celdas
 ![image](src/Home/STB5.png)

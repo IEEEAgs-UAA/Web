@@ -1,5 +1,5 @@
 ---
-title: Merch.md
+title: Merch
 ---
 
 
