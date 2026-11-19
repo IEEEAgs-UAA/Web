@@ -23,15 +23,26 @@ flowchart TD
     YP[Young Professionals]
     WIE[Women in Engineering]
     SB[Student Branches]
-    CH[Chapters]
+    AF[Affinity Groups]
+    CH[Technical Chapters]
+    EDS[Electron Devices Society]
+    CS[Computer Society]
 
     %% Relaciones / Jerarquía
     R9 --> AGS
     
-    AGS --> YP
-    AGS --> WIE
+    AGS --> AF
     AGS --> SB
     AGS --> CH
+	CH  --> EDS
+	CH  --> CS    
+    
+	AF --> YP
+    AF --> WIE
+
+
+    SB --> Ramas
+    SB --> Capitulos
 
     %% Estilos opcionales para resaltar los niveles (opcional, Quartz lo adaptará a su tema)
     style R9 fill:#00629B,stroke:#004B76,stroke-width:2px,color:#fff
